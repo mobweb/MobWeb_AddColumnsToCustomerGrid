@@ -1,0 +1,6 @@
+app/code/local/MobWeb/AddColumnsToCustomerGrid app/code/local/MobWeb/AddColumnsToCustomerGrid/
+
+app/etc/modules/MobWeb_AddColumnsToCustomerGrid.xml app/etc/modules/MobWeb_AddColumnsToCustomerGrid.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"
